@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Pod request access landing page</title>
+</head>
+<body>
+    <div class="img-layover">
+        <img class="mobile-singer-img" src="images/mobile/image-host.jpg" alt="image-host">
+        <img class="tablet-singer-img" src="images/tablet/image-host.jpg" alt="image-host">
+        <img class="desktop-singer-img" src="images/desktop/image-host.jpg" alt="image-host">
+    </div>
+    <div class="icon">
+        <img src="images/desktop/logo.svg" alt="logo">
+    </div>
+    <div class="container">
+        <h1>Publish your podcasts <span>everywhere.</span></h1>
+        <p>Upload your audio to Pod with a single click. We`ll then distribute your podcast to Spotify, Apple Podcasts,
+            Google Podcasts, Pocket Casts and more!</p>
+        <div class="app-icons">
+            <img src="images/desktop/spotify.svg" alt="spotify">
+            <img src="images/desktop/apple-podcast.svg" alt="apple-podcast">
+            <img src="images/desktop/google-podcasts.svg" alt="google-podcasts">
+            <img src="images/desktop/pocket-casts.svg" alt="pocket-casts">
+        </div>
+        <form class="form" id="form" novalidate>
+            <input type="email" id="email-input" placeholder="Email address" class="input">
+            <button type="button" id="email-button" class="btn">Request Access</button>
+            <div id="error-message" class="error-message"></div>
+        </form>
+    </div>
+    <div>
+        <img class="dots" src="images/desktop/bg-pattern-dots.svg" alt="bg-pattern-dots">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
